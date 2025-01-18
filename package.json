@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^1.7.9",
     "core-js": "^3.8.3",
+    "element-plus": "^2.9.3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -34,17 +35,19 @@
     "eslint-plugin-vue": "^7.0.0",
     "husky": "^7.0.1",
     "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass-loader": "^12.0.0",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-vue-components": "^0.17.11"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
     }
   },
-  "lint-staged":{
-    "src/**/*.{js,xue}":[  
-      "eslint --fix",      
-      "git add"            
+  "lint-staged": {
+    "src/**/*.{js,xue}": [
+      "eslint --fix",
+      "git add"
     ]
   }
 }
